@@ -1,0 +1,61 @@
+
+.main-color
+{
+    color: #0E8A94
+}
+.main-bg
+{
+    background-color: #0E8A94;
+}
+.btn-dark
+{
+    background-color: #0D0906;
+    border-color: #0D0906;
+}
+.btn-dark:hover
+{
+    background-color: #0D0906;
+    border-color: #0D0906;
+}
+.navbar
+{
+    background-color: #222A34;
+}
+.navbar-brand
+{
+    width: 200px;
+}
+.header
+{
+    background: url("../images/header-bg.png") no-repeat center center;
+    background-size: cover;
+    height: 600px;
+}
+.header .image
+{
+    width: 120px;
+}
+@media(max-width: 576px) {
+    h1
+    {
+        font-size: 2.2rem;
+    }
+    .header .image
+    {
+        width: 100px;
+    }
+}
+.why-us
+{
+    background-color: #222A34;
+}
+.why-us .image
+{
+    width: 100%;
+}
+@media(max-width: 576px) {
+    .why-us .image
+    {
+        width: 200px;
+    }
+}
